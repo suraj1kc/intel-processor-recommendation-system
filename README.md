@@ -114,10 +114,10 @@ pip install -r requirements.txt
 ```
 
 3. **Verify data files**
-Ensure these files are present:
-- `intel_processors_features.csv`
-- `intel_processors_flat.csv`
-- `intel_processors_master.json`
+Ensure these files are present in the `data/` directory:
+- `data/intel_processors_features.csv`
+- `data/intel_processors_flat.csv`
+- `data/intel_processors_master.json`
 
 ## 📖 Usage
 
@@ -170,7 +170,7 @@ from sklearn.metrics.pairwise import cosine_similarity
 from sklearn.preprocessing import StandardScaler
 
 # Load the processed data
-df = pd.read_csv('intel_processors_features.csv')
+df = pd.read_csv('data/intel_processors_features.csv')
 
 # Initialize and fit scaler
 scaler = StandardScaler()
@@ -190,26 +190,32 @@ def get_recommendations(processor_name, top_n=5):
 ```
 intel-processor-recommendation-system/
 │
-├── data/
-│   ├── intel_processors_master.json      # Raw consolidated data
-│   ├── intel_processors_flat.csv         # Flattened data
-│   ├── intel_processors_features.csv     # Clean numeric features
-│   ├── intel_processors_flat.parquet     # Optimized storage format
-│   └── intel_processors_features.parquet
+├── data/                                 # Data files and storage
+│   ├── csv/                             # Original CSV files from Intel
+│   │   ├── Core_Processors/             # Core processor CSV files
+│   │   ├── Core_Ultra_Processors/       # Core Ultra processor CSV files
+│   │   ├── Xeon_Max_Processors/         # Xeon Max processor CSV files
+│   │   └── Xeon_Processors/             # Xeon processor CSV files
+│   ├── intel_processors_master.json     # Raw consolidated data
+│   ├── intel_processors_flat.csv        # Flattened data
+│   ├── intel_processors_features.csv    # Clean numeric features
+│   ├── intel_processors_flat.jsonl      # JSON Lines format
+│   ├── intel_processors_flat.parquet    # Optimized storage format
+│   └── intel_processors_features.parquet # Clean features in parquet format
 │
-├── notebooks/
-│   ├── eda.ipynb                         # Exploratory Data Analysis
+├── notebooks/                           # Jupyter notebooks
+│   ├── eda.ipynb                        # Exploratory Data Analysis
 │   └── processor_recommendation_system.ipynb  # Main recommendation system
 │
-├── streamlit_app.py                      # Web application
-├── requirements.txt                      # Python dependencies
-└── README.md                            # Project documentation
+├── streamlit_app.py                     # Web application
+├── requirements.txt                     # Python dependencies
+└── README.md                           # Project documentation
 ```
 
 ## 🔧 Technical Details
 
 ### Data Requirements
-The app expects a CSV file named `intel_processors_features.csv` with the following columns:
+The app expects a CSV file named `intel_processors_features.csv` in the `data/` directory with the following columns:
 - `processor_name`: Full processor name
 - `category`: Processor category 
 - `feat.total_cores`: Number of cores

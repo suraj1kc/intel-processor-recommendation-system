@@ -53,7 +53,7 @@ st.markdown("""
 def load_and_process_data():
     """Load and preprocess the processor data"""
     try:
-        df = pd.read_csv('intel_processors_features.csv')
+        df = pd.read_csv('data/intel_processors_features.csv')
         
         # Separate features
         feature_cols = [col for col in df.columns if col.startswith('feat.')]
@@ -72,7 +72,7 @@ def load_and_process_data():
         
         return df, feature_matrix, features_scaled, similarity_matrix, scaler
     except FileNotFoundError:
-        st.error("❌ Could not find 'intel_processors_features.csv'. Please make sure the file is in the correct directory.")
+        st.error("❌ Could not find 'data/intel_processors_features.csv'. Please make sure the file is in the correct directory.")
         return None, None, None, None, None
 
 def get_similar_processors(df, similarity_matrix, processor_name, top_n=5):
