@@ -1,0 +1,125 @@
+﻿UPE | 
+07/27/2025 02:13:42 PM
+,Intel® Core™ Ultra 9 Processor 275HX (36M Cache- up to 5.40 GHz)
+
+Essentials
+Product Collection,Intel® Core™ Ultra Processors (Series 2)
+Code Name,Products formerly Arrow Lake
+Vertical Segment,Mobile
+Processor Number,275HX
+Overall Peak TOPS (Int8),36
+
+CPU Specifications
+Total Cores,24
+# of Performance-cores,8
+# of Efficient-cores,16
+Total Threads,24
+Max Turbo Frequency,5.4 GHz
+Performance-core Max Turbo Frequency,5.4 GHz
+Efficient-core Max Turbo Frequency,4.6 GHz
+Performance-core Base Frequency,2.7 GHz
+Efficient-core Base Frequency,2.1 GHz
+Cache,36 MB
+Total L2 Cache,40 MB
+Processor Base Power,55 W
+Maximum Turbo Power,160 W
+Minimum Assured Power,45 W
+Intel® Deep Learning Boost (Intel® DL Boost) on CPU,Yes
+AI Software Frameworks Supported by CPU,OpenVINO™ |  WindowsML |  DirectML |  ONNX RT |  WebNN
+CPU Lithography,TSMC N3B
+
+Supplemental Information
+Marketing Status,Launched
+Launch Date,Q1'25
+Embedded Options Available,No
+Datasheet,View now
+
+Memory Specifications
+Max Memory Size (dependent on memory type),256 GB
+Memory Types,Up to DDR5 6400 MT/s
+Max # of Memory Channels,2
+ECC Memory Supported   ‡,No
+
+GPU Specifications
+GPU Name‡,Intel® Graphics
+Graphics Base Frequency,300 MHz
+Graphics Max Dynamic Frequency,1.9 GHz
+GPU Peak TOPS (Int8),8
+Graphics Output,DP2.1 UHBR20 |  HDM2.1 FRL 12GHz |  eDP1.4b
+Xe-cores,4
+Ray Tracing,Yes
+Max Resolution (HDMI)‡,4K @ 60Hz (HDMI 2.1 TMDS) 8K @ 60Hz (HDMI2.1 FRL)
+Max Resolution (DP)‡,7680 x 4320 @ 60Hz
+Max Resolution (eDP - Integrated Flat Panel)‡,3840x2400 @ 120Hz
+DirectX* Support,12
+OpenGL* Support,4.5
+OpenCL* Support,3
+H.264 Hardware Encode/Decode,Yes
+H.265 (HEVC) Hardware Encode/Decode,Yes
+AV1 Encode/Decode,Yes
+VP9 Bitstream & Decoding,Yes
+Intel® Quick Sync Video,Yes
+# of Displays Supported ‡,4
+Device ID,0x7D67
+Intel® Deep Learning Boost (Intel® DL Boost) on GPU,Yes
+AI Software Frameworks Supported by GPU,OpenVINO™ |  WindowsML |  DirectML |  ONNX RT |  WebGPU
+
+NPU Specifications
+NPU Name‡,Intel® AI Boost
+NPU Peak TOPS (Int8),13
+Sparsity Support,Yes
+Windows Studio Effects Support,Yes
+AI Software Frameworks Supported by NPU,OpenVINO™ |  WindowsML |  DirectML |  ONNX RT |  WebNN
+
+Expansion Options
+Direct Media Interface (DMI) Revision,4
+Max # of DMI Lanes,8
+Intel® Thunderbolt™ 4,Yes
+Scalability,1S Only
+PCI Express Revision,5.0 and 4.0
+PCI Express Configurations ‡,Up to 1x16+2x4 |  2x8+2x4 | 1x8+4x4
+Max # of PCI Express Lanes,24
+
+Package Specifications
+Sockets Supported,FCBGA2114
+Max Operating Temperature,105 °C
+
+Advanced Technologies
+Intel® Gaussian & Neural Accelerator,3.5
+Intel® Thread Director,Yes
+Intel® Image Processing Unit,6.0
+Intel® Smart Sound Technology,Yes
+Intel® Wake on Voice,Yes
+Intel® High Definition Audio,Yes
+Intel® Adaptix™ Technology,Yes
+Intel® Speed Shift Technology,Yes
+Intel® Turbo Boost Max Technology 3.0 ‡,Yes
+Intel® Turbo Boost Technology ‡,2.0
+Intel® 64 ‡,Yes
+Instruction Set,64-bit
+Instruction Set Extensions,Intel® SSE4.1 |  Intel® SSE4.2 |  Intel® AVX2
+Idle States,Yes
+Enhanced Intel SpeedStep® Technology,Yes
+Thermal Monitoring Technologies,Yes
+Intel® Volume Management Device (VMD),Yes
+
+Security & Reliability
+Intel® Threat Detection Technology (TDT),Yes
+Intel® Active Management Technology (AMT) ‡,No
+Intel® Standard Manageability (ISM) ‡,Yes
+Intel® Remote Platform Erase (RPE) ‡,No
+Intel® One-Click Recovery ‡,No
+Intel® Secure Key,Yes
+Intel® Control-Flow Enforcement Technology,Yes
+Intel® Total Memory Encryption - Multi Key,No
+Intel® AES New Instructions,Yes
+Intel® Trusted Execution Technology ‡,Yes
+Execute Disable Bit ‡,Yes
+Intel® OS Guard,Yes
+Intel® Boot Guard,Yes
+Mode-based Execute Control (MBEC),Yes
+Intel® Stable IT Platform Program (SIPP),No
+Intel® Virtualization Technology with Redirect Protection (VT-rp) ‡,No
+Intel® Virtualization Technology (VT-x) ‡,Yes
+Intel® Virtualization Technology for Directed I/O (VT-d) ‡,Yes
+Intel® VT-x with Extended Page Tables (EPT) ‡,Yes

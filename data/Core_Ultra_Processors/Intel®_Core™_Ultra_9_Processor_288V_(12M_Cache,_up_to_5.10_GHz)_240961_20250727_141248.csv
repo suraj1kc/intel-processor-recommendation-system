@@ -1,0 +1,122 @@
+﻿UPE | 
+07/27/2025 02:12:50 PM
+,Intel® Core™ Ultra 9 Processor 288V (12M Cache- up to 5.10 GHz)
+
+Essentials
+Product Collection,Intel® Core™ Ultra Processors (Series 2)
+Code Name,Products formerly Lunar Lake
+Vertical Segment,Mobile
+Processor Number,288V
+Overall Peak TOPS (Int8),120
+
+CPU Specifications
+Total Cores,8
+# of Performance-cores,4
+# of Low Power Efficient-cores,4
+Total Threads,8
+Max Turbo Frequency,5.1 GHz
+Intel® Turbo Boost Max Technology 3.0 Frequency ‡,5.1 GHz
+Performance-core Max Turbo Frequency,5.1 GHz
+Low Power Efficient-core Max Turbo Frequency,3.7 GHz
+Performance-core Base Frequency,3.3 GHz
+Low Power Efficient-core Base Frequency,3.3 GHz
+Cache,12 MB Intel® Smart Cache
+Processor Base Power,30 W
+Maximum Turbo Power,37 W
+Minimum Assured Power,17 W
+Intel® Deep Learning Boost (Intel® DL Boost) on CPU,Yes
+AI Software Frameworks Supported by CPU,OpenVINO™ |  WindowsML |  DirectML |  ONNX RT |  WebNN
+CPU Lithography,TSMC N3B
+
+Supplemental Information
+Marketing Status,Launched
+Launch Date,Q3'24
+Embedded Options Available,No
+Datasheet,View now
+
+Memory Specifications
+Max Memory Size (dependent on memory type),32 GB
+Memory Types,LPDDR5X up to 8533 MT/s
+Max # of Memory Channels,2
+
+GPU Specifications
+GPU Name‡,Intel® Arc™ 140V GPU
+Graphics Max Dynamic Frequency,2.05 GHz
+GPU Peak TOPS (Int8),67
+Graphics Output,DP2.1 UHBR20 | HDMI2.1 FRL 12GHz
+Xe-cores,8
+Ray Tracing,Yes
+Max Resolution (HDMI)‡,4096 x 2304 @ 60Hz (HDMI 2.1 TMDS) 7680 x 4320 @ 60Hz (HDMI2.1 FRL)
+Max Resolution (DP)‡,7680 x 4320 @ 60Hz
+Max Resolution (eDP - Integrated Flat Panel)‡,3840x2400 @ 120Hz
+DirectX* Support,12.2
+OpenGL* Support,4.6
+OpenCL* Support,3.0
+Multi-Format Codec Engines,1
+H.264 Hardware Encode/Decode,Yes
+H.265 (HEVC) Hardware Encode/Decode,Yes
+H.266 (VVC) Hardware Encode/Decode,Decode Only
+AV1 Encode/Decode,Yes
+VP9 Bitstream & Decoding,Yes
+Intel® Quick Sync Video,Yes
+# of Displays Supported ‡,3
+Device ID,0x64A0
+Intel® Deep Learning Boost (Intel® DL Boost) on GPU,Yes
+AI Software Frameworks Supported by GPU,OpenVINO™ |  WindowsML |  DirectML |  ONNX RT |  WebGPU |  WebNN
+
+NPU Specifications
+NPU Name‡,Intel® AI Boost
+NPU Peak TOPS (Int8),48
+Sparsity Support,Yes
+Windows Studio Effects Support,Yes
+AI Software Frameworks Supported by NPU,OpenVINO™ |  WindowsML |  DirectML |  ONNX RT |  WebNN
+
+Expansion Options
+Intel® Thunderbolt™ 4,Yes
+PCI Support,5.0 and 4.0
+PCI Express Configurations ‡,4 (x1 | x2 | x4) Gen4 + 4 (x2 | x4) Gen5
+Max # of PCI Express Lanes,8
+
+Package Specifications
+Sockets Supported,FCBGA2833
+Max CPU Configuration,1
+Max Operating Temperature,100 °C
+Package Size,27.5mmx27mm
+
+Advanced Technologies
+Intel® Thread Director,Yes
+Intel® Image Processing Unit,7.0
+Intel® Smart Sound Technology,Yes
+Intel® Wake on Voice,Yes
+Intel® High Definition Audio,Yes
+Intel® Adaptix™ Technology,Yes
+Intel® Speed Shift Technology,Yes
+Intel® Turbo Boost Max Technology 3.0 ‡,Yes
+Intel® Hyper-Threading Technology ‡,No
+Instruction Set,64-bit
+Instruction Set Extensions,Intel® SSE4.1 |  Intel® SSE4.2 |  Intel® AVX2
+Thermal Monitoring Technologies,Yes
+
+Security & Reliability
+Intel vPro® Eligibility ‡,Intel vPro® Enterprise
+Intel® Partner Security Engine ‡,Yes
+Intel® Threat Detection Technology (TDT),Yes
+Intel® Active Management Technology (AMT) ‡,Yes
+Intel® Standard Manageability (ISM) ‡,Yes
+Intel® Remote Platform Erase (RPE) ‡,Yes
+Intel® One-Click Recovery ‡,Yes
+Intel® Hardware Shield Eligibility ‡,Yes
+Intel® Secure Key,Yes
+Intel® Control-Flow Enforcement Technology,Yes
+Intel® Total Memory Encryption - Multi Key,Yes
+Intel® AES New Instructions,Yes
+Intel® Trusted Execution Technology ‡,Yes
+Execute Disable Bit ‡,Yes
+Intel® OS Guard,Yes
+Intel® Boot Guard,Yes
+Mode-based Execute Control (MBEC),Yes
+Intel® Stable IT Platform Program (SIPP),Yes
+Intel® Virtualization Technology with Redirect Protection (VT-rp) ‡,Yes
+Intel® Virtualization Technology (VT-x) ‡,Yes
+Intel® Virtualization Technology for Directed I/O (VT-d) ‡,Yes
+Intel® VT-x with Extended Page Tables (EPT) ‡,Yes

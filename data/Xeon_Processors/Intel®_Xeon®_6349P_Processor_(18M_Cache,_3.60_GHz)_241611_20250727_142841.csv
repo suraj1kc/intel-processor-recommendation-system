@@ -1,0 +1,79 @@
+﻿UPE | 
+07/27/2025 02:28:42 PM
+,Intel® Xeon® 6349P Processor (18M Cache- 3.60 GHz)
+
+Essentials
+Product Collection,Intel® Xeon® 6 processors
+Code Name,Products formerly Raptor Lake
+Vertical Segment,Server
+Processor Number,6349P
+Lithography,Intel 7
+Recommended Customer Price,$506.00
+
+CPU Specifications
+Total Cores,6
+# of Performance-cores,6
+Total Threads,12
+Max Turbo Frequency,5.7 GHz
+Intel® Turbo Boost Max Technology 3.0 Frequency ‡,5.4 GHz
+Intel® Turbo Boost Technology 2.0 Frequency‡,5.7 GHz
+Processor Base Frequency,3.6 GHz
+Cache,18 MB
+Bus Speed,16 GT/s
+TDP,95 W
+
+Supplemental Information
+Marketing Status,Launched
+Launch Date,Q1'25
+Servicing Status,Baseline Servicing
+Embedded Options Available,No
+Use Conditions,Server/Enterprise
+
+Memory Specifications
+Max Memory Size (dependent on memory type),128 GB
+Memory Types,DDR5-4800
+Maximum Memory Speed,4800 MT/s
+Max # of Memory Channels,2
+Intel® Optane™ Persistent Memory Supported,No
+ECC Memory Supported   ‡,Yes
+
+Expansion Options
+Max # of DMI Lanes,8
+Scalability,1S Only
+PCI Express Revision,5.0
+Microprocessor PCIe Revision,Gen 5
+PCI Express Configurations ‡,Up to 1x16+1x4 |  2x8+1x4
+Max # of PCI Express Lanes,20
+
+Package Specifications
+Sockets Supported,FCLGA1700
+Max CPU Configuration,1
+TJUNCTION,100°C
+
+Advanced Technologies
+Intel® Turbo Boost Max Technology 3.0 ‡,Yes
+Intel® Turbo Boost Technology ‡,2.0
+Intel® Hyper-Threading Technology ‡,Yes
+Intel® Transactional Synchronization Extensions,No
+Intel® 64 ‡,Yes
+Instruction Set,64-bit
+Instruction Set Extensions,Intel® SSE4.1 |  Intel® SSE4.2 |  Intel® AVX2
+Idle States,Yes
+Enhanced Intel SpeedStep® Technology,Yes
+Thermal Monitoring Technologies,Yes
+
+Security & Reliability
+Intel® Secure Key,Yes
+Intel® Total Memory Encryption - Multi Key,Yes
+Intel® Total Memory Encryption,Yes
+Intel® AES New Instructions,Yes
+Intel® Secure Key,Yes
+Intel® OS Guard,Yes
+Intel® Trusted Execution Technology ‡,Yes
+Execute Disable Bit ‡,Yes
+Intel® Boot Guard,Yes
+Mode-based Execute Control (MBEC),Yes
+Intel® Virtualization Technology with Redirect Protection (VT-rp) ‡,Yes
+Intel® Virtualization Technology (VT-x) ‡,Yes
+Intel® Virtualization Technology for Directed I/O (VT-d) ‡,Yes
+Intel® VT-x with Extended Page Tables (EPT) ‡,Yes

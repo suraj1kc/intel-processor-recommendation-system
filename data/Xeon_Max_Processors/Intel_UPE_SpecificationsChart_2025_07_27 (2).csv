@@ -1,0 +1,84 @@
+﻿UPE | 
+07/27/2025 02:43:23 PM
+,Intel® Xeon® CPU Max 9470 Processor (105M Cache- 2.00 GHz)
+
+Essentials
+Product Collection,Intel® Xeon® CPU Max Series
+Code Name,Products formerly Sapphire Rapids HBM
+Vertical Segment,Server
+Processor Number,9470
+Lithography,Intel 7
+Recommended Customer Price,$11590.00
+
+CPU Specifications
+Total Cores,52
+Total Threads,104
+Max Turbo Frequency,3.50 GHz
+Processor Base Frequency,2.00 GHz
+Cache,105 MB
+Intel® UPI Speed,16 GT/s
+Max # of UPI Links,4
+TDP,350 W
+
+Intel® Speed Select Technology - Performance Profile (Intel® SST-PP)
+,ConfigActive CoresBase FrequencyTDPDescription9470 (0)522.0 GHz350 W9470 (1)482.1 GHz350 W9470 (2)322.6 GHz350 W
+
+Supplemental Information
+Marketing Status,Launched
+Launch Date,Q1'23
+Servicing Status,Baseline Servicing
+Embedded Options Available,No
+Use Conditions,Server/Enterprise
+
+Memory Specifications
+Max Memory Size (dependent on memory type),4 TB
+Memory Types,Up to DDR5 4800 MT/s 1DPC  Up to DDR5 4400 MT/s 2DPC
+Max # of Memory Channels,8
+Maximum High Bandwidth Memory (HBM)†,64 GB
+ECC Memory Supported   ‡,Yes
+
+Expansion Options
+Scalability,2S
+PCI Express Revision,5.0
+Max # of PCI Express Lanes,80
+
+Package Specifications
+Sockets Supported,FCLGA4677
+Package Carrier,E1C
+DTS Max,83 °C
+TCASE,64°C
+Package Size,100mm x 56.5mm
+
+Advanced Technologies
+Intel® Data Streaming Accelerator (DSA),4 default devices
+Intel® Advanced Matrix Extensions (AMX),Yes
+Intel® Speed Select Technology – Core Power,Yes
+Intel® Speed Select Technology – Turbo Frequency,Yes
+Intel® Deep Learning Boost (Intel® DL Boost) on CPU,Yes
+Intel® Speed Select Technology - Performance Profile,Yes
+Intel® Resource Director Technology (Intel® RDT),Yes
+Intel® Speed Shift Technology,Yes
+Intel® Turbo Boost Technology ‡,2.0
+Intel® Hyper-Threading Technology ‡,Yes
+Intel® Transactional Synchronization Extensions,Yes
+Intel® 64 ‡,Yes
+Instruction Set Extensions,Intel® AMX |  Intel® SSE4.2 |  Intel® AVX |  Intel® AVX2 |  Intel® AVX-512
+# of AVX-512 FMA Units,2
+
+Security & Reliability
+Intel® Crypto Acceleration,Yes
+Intel® Platform Firmware Resilience Support,Yes
+Intel® Control-Flow Enforcement Technology,Yes
+Intel® Total Memory Encryption,Yes
+Intel® AES New Instructions,Yes
+Intel® Software Guard Extensions (Intel® SGX),Yes with Intel® SPS
+Default Maximum Enclave Page Cache (EPC) Size for Intel® SGX,512 GB
+Intel® OS Guard,Yes
+Intel® Trusted Execution Technology ‡,Yes
+Execute Disable Bit ‡,Yes
+Intel® Boot Guard,Yes
+Intel® Run Sure Technology,Yes
+Mode-based Execute Control (MBEC),Yes
+Intel® Virtualization Technology (VT-x) ‡,Yes
+Intel® Virtualization Technology for Directed I/O (VT-d) ‡,Yes
+Intel® VT-x with Extended Page Tables (EPT) ‡,Yes

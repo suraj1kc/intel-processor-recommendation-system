@@ -1,0 +1,92 @@
+﻿UPE | 
+07/27/2025 02:25:39 PM
+,Intel® Xeon® 6556P-B Processor (144M Cache- 2.30 GHz)
+
+Essentials
+Product Collection,Intel® Xeon® 6 processors
+Code Name,Products formerly Granite Rapids-D
+Vertical Segment,Server
+Processor Number,6556P-B
+Lithography,Intel 3
+Recommended Customer Price,$2628.00
+
+CPU Specifications
+Total Cores,36
+# of Performance-cores,36
+Total Threads,72
+Max Turbo Frequency,3.5 GHz
+Processor Base Frequency,2.3 GHz
+Cache,144 MB
+TDP,215 W
+Intel® Deep Learning Boost (Intel® DL Boost) on CPU,Yes
+
+Supplemental Information
+Marketing Status,Launched
+Launch Date,Q1'25
+Servicing Status,Baseline Servicing
+Embedded Options Available,Yes
+Use Conditions,Communications Extended Temp
+
+Memory Specifications
+Max Memory Size (dependent on memory type),1.13 TB
+Memory Types,DDR5
+Maximum Memory Speed,6400 MT/s
+Max # of Memory Channels,4
+Intel® Optane™ Persistent Memory Supported,No
+ECC Memory Supported   ‡,Yes
+
+Expansion Options
+Scalability,1S Only
+PCI Express Revision,Gen 4 |  Gen 5
+PCI Express Configurations ‡,32 Lanes Gen 5; 16 Lanes Gen 4
+Max # of PCI Express Lanes,48
+
+I/O Specifications
+Integrated LAN,yes
+
+Package Specifications
+Sockets Supported,FCBGA4368
+TCASE,85
+Package Size,77.5mm x 50mm
+
+Advanced Technologies
+Intel® vRAN Boost,Yes
+Intel® QuickAssist Technology (QAT),1 default devices
+Intel® Dynamic Load Balancer (DLB),1 default devices
+Intel® Data Streaming Accelerator (DSA),1 default devices
+Intel® In-memory Analytics Accelerator (IAA),0 default devices
+Intel® Advanced Matrix Extensions (AMX),Yes
+Intel® Speed Select Technology – Core Power,No
+Intel® Speed Select Technology – Turbo Frequency,No
+Intel® Speed Select Technology - Performance Profile,No
+Intel® Speed Select Technology - Base Frequency,No
+Intel® Resource Director Technology (Intel® RDT),Yes
+Intel® Optane™ Memory Supported ‡,No
+Intel® Speed Shift Technology,No
+Intel® Turbo Boost Technology ‡,2.0
+Intel® Hyper-Threading Technology ‡,Yes
+Intel® 64 ‡,Yes
+Instruction Set,64-bit
+Instruction Set Extensions,Intel® AMX |  Intel® SSE4.2 |  Intel® AVX |  Intel® AVX2 |  Intel® AVX-512
+# of AVX-512 FMA Units,2
+Enhanced Intel SpeedStep® Technology,No
+Integrated Intel® QuickAssist Technology,Yes
+Intel® Volume Management Device (VMD),Yes
+
+Security & Reliability
+Intel® Trust Domain Extensions (Intel® TDX),Yes
+Intel® QuickAssist Software Acceleration,Yes
+Intel® Total Memory Encryption - Multi Key,Yes
+Intel® Total Memory Encryption,Yes
+Intel® AES New Instructions,Yes
+Intel® Software Guard Extensions (Intel® SGX),Yes with Intel® SPS
+Intel® Trusted Execution Technology ‡,Yes
+Execute Disable Bit ‡,Yes
+Intel® Boot Guard,Yes
+Mode-based Execute Control (MBEC),Yes
+Intel® Platform Firmware Resilience Support,Yes
+Default Maximum Enclave Page Cache (EPC) Size for Intel® SGX,512 GB
+Intel® Crypto Acceleration,Yes
+Intel® Virtualization Technology (VT-x) ‡,Yes
+Intel® Virtualization Technology for Directed I/O (VT-d) ‡,Yes
+Intel® VT-x with Extended Page Tables (EPT) ‡,Yes

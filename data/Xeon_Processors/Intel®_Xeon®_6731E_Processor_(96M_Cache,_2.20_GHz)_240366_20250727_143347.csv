@@ -1,0 +1,78 @@
+﻿UPE | 
+07/27/2025 02:33:48 PM
+,Intel® Xeon® 6731E Processor (96M Cache- 2.20 GHz)
+
+Essentials
+Product Collection,Intel® Xeon® 6 processors
+Code Name,Products formerly Sierra Forest
+Vertical Segment,Server
+Processor Number,6731E
+Lithography,Intel 3
+Recommended Customer Price,$3297.00
+
+CPU Specifications
+Total Cores,96
+Total Threads,96
+Max Turbo Frequency,3.1 GHz
+All Core Turbo Frequency,3.1 GHz
+Processor Base Frequency,2.2 GHz
+Cache,96 MB
+Intel® UPI Speed,0 GT/s
+Max # of UPI Links,0
+TDP,250 W
+
+Supplemental Information
+Marketing Status,Launched
+Launch Date,Q2'24
+
+Memory Specifications
+Max Memory Size (dependent on memory type),4 TB
+Memory Types,DDR5-6400
+Maximum Memory Speed,5600 MHz
+Max # of Memory Channels,8
+ECC Memory Supported   ‡,Yes
+
+Expansion Options
+Scalability,1S Only
+PCI Express Revision,5.0
+Max # of PCI Express Lanes,88
+
+Package Specifications
+Sockets Supported,FCLGA4710
+Package Carrier,E2B
+DTS Max,106 °C
+TCASE,84
+Package Size,77.5mm x 56.5mm
+
+Advanced Technologies
+Intel® QuickAssist Technology (QAT),2 default devices
+Intel® Dynamic Load Balancer (DLB),2 default devices
+Intel® Data Streaming Accelerator (DSA),2 default devices
+Intel® In-memory Analytics Accelerator (IAA),2 default devices
+Intel® Speed Select Technology – Core Power,No
+Intel® Speed Select Technology – Turbo Frequency,No
+Intel® Speed Select Technology - Performance Profile,No
+Intel® Speed Select Technology - Base Frequency,No
+Intel® Resource Director Technology (Intel® RDT),Yes
+Intel® 64 ‡,Yes
+Instruction Set Extensions,Intel® AVX2
+# of AVX-512 FMA Units,2
+Intel® Volume Management Device (VMD),Yes
+
+Security & Reliability
+Intel® Trust Domain Extensions (Intel® TDX),Yes
+Intel® Crypto Acceleration,Yes
+Intel® QuickAssist Software Acceleration,Yes
+Intel® Platform Firmware Resilience Support,Yes
+Intel® Control-Flow Enforcement Technology,Yes
+Intel® Total Memory Encryption - Multi Key,Yes
+Intel® Total Memory Encryption,Yes
+Intel® AES New Instructions,Yes
+Default Maximum Enclave Page Cache (EPC) Size for Intel® SGX,512 GB
+Intel® OS Guard,Yes
+Intel® Trusted Execution Technology ‡,Yes
+Execute Disable Bit ‡,Yes
+Intel® Boot Guard,Yes
+Mode-based Execute Control (MBEC),Yes
+Intel® Virtualization Technology (VT-x) ‡,Yes
+Intel® Virtualization Technology for Directed I/O (VT-d) ‡,Yes
