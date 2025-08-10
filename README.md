@@ -1,6 +1,6 @@
 # Intel Processor Recommendation System 🖥️
 
-A content-based recommendation system that helps users find similar Intel processors based on technical specifications. This project demonstrates end-to-end data science workflow from web scraping to building an interactive recommendation application.
+A content-based recommendation system that helps users find similar Intel processors based on technical specifications. This project demonstrates end-to-end data science workflow from web scraping to building a recommendation algorithm.
 
 ## 📋 Table of Contents
 - [Project Overview](#project-overview)
@@ -25,7 +25,6 @@ This project was developed as part of a Data Science course (MDA512) to create a
 2. **Data Preparation**: Clean and structure the data for analysis
 3. **EDA**: Perform exploratory data analysis to understand processor characteristics
 4. **Recommendation Algorithm**: Build a similarity-based recommendation engine
-5. **Interactive Application**: Create a user-friendly Streamlit interface
 
 ## 🔍 Problem Statement
 
@@ -85,14 +84,8 @@ Intel Website → CSV Files → JSON Consolidation → Flattened DataFrame
 ### Core Functionality
 - **Processor Search**: Find processors by name or browse categories
 - **Similarity Calculation**: Cosine similarity-based recommendations
-- **Interactive Visualizations**: Compare specifications across processors
+- **Data Analysis**: Comprehensive exploratory data analysis
 - **Detailed Specifications**: View complete technical details
-
-### Web Application Features
-- 🔍 **Find Similar Processors**: Enter a processor name to find similar alternatives
-- ⚙️ **Filter by Requirements**: Specify your needs (cores, frequency, price, use case)  
-- 💰 **Best Value Options**: Find processors that offer the best performance per dollar
-- 📊 **Data Explorer**: Visualize and explore the processor dataset
 
 ## 🚀 Installation
 
@@ -121,46 +114,16 @@ Ensure these files are present in the `data/` directory:
 
 ## 📖 Usage
 
-### Running the Streamlit Application
-```bash
-streamlit run streamlit_app.py
-```
-
-The app will open in your default web browser at `http://localhost:8501`
-
-### Application Features
-
-#### 🔍 Find Similar Processors
-- Search for a processor by name or select from dropdown
-- Get AI-powered recommendations based on similarity scores
-- View detailed specifications for each recommendation
-
-#### ⚙️ Filter by Requirements  
-- Set minimum/maximum cores, frequency, and price
-- Filter by use case (Mobile, Desktop, Server, Embedded)
-- Filter by category (Core, Core Ultra, Xeon, Xeon Max)
-- Sort results by price, performance, or value
-
-#### 💰 Best Value Options
-- Set your budget limit
-- Find processors with the best performance per dollar
-- Compare value scores across different options
-
-#### 📊 Data Explorer
-- View dataset statistics and distributions  
-- Explore correlations between features
-- Browse the raw dataset with search functionality
-
 ### Using Jupyter Notebooks
 
 1. **Exploratory Data Analysis**
 ```bash
-jupyter notebook eda.ipynb
+jupyter notebook notebooks/eda.ipynb
 ```
 
 2. **Recommendation System Development**
 ```bash
-jupyter notebook processor_recommendation_system.ipynb
+jupyter notebook notebooks/processor_recommendation_system.ipynb
 ```
 
 ### Example Usage in Python
@@ -207,7 +170,6 @@ intel-processor-recommendation-system/
 │   ├── eda.ipynb                        # Exploratory Data Analysis
 │   └── processor_recommendation_system.ipynb  # Main recommendation system
 │
-├── streamlit_app.py                     # Web application
 ├── requirements.txt                     # Python dependencies
 └── README.md                           # Project documentation
 ```
@@ -215,7 +177,7 @@ intel-processor-recommendation-system/
 ## 🔧 Technical Details
 
 ### Data Requirements
-The app expects a CSV file named `intel_processors_features.csv` in the `data/` directory with the following columns:
+The analysis expects a CSV file named `intel_processors_features.csv` in the `data/` directory with the following columns:
 - `processor_name`: Full processor name
 - `category`: Processor category 
 - `feat.total_cores`: Number of cores
@@ -239,8 +201,7 @@ The app expects a CSV file named `intel_processors_features.csv` in the `data/` 
 - **Algorithm**: Content-based filtering with cosine similarity
 - **Features**: 16 engineered features including performance ratios
 - **Scaling**: StandardScaler for feature normalization
-- **Visualization**: Interactive charts using Plotly
-- **Framework**: Streamlit for web interface
+- **Visualization**: Interactive charts using Matplotlib and Seaborn
 - **Similarity Metric**: Cosine similarity
 - **Feature Space**: 8-dimensional numeric feature vector
 - **Scalability**: O(n²) similarity matrix computation
@@ -276,9 +237,9 @@ The app expects a CSV file named `intel_processors_features.csv` in the `data/` 
 - [ ] Incorporate user reviews and ratings
 
 ### Application Features
-- [ ] User account system for saving preferences
-- [ ] Advanced filtering and search capabilities
-- [ ] Integration with e-commerce platforms
+- [ ] Create a command-line interface for recommendations
+- [ ] Add interactive visualization capabilities
+- [ ] Develop web interface for broader accessibility
 
 ### Technical Improvements
 - [ ] Implement caching for faster response times
@@ -315,7 +276,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - Intel Corporation for providing comprehensive processor specifications
 - Course instructors and peers for guidance and feedback
 - Open source community for excellent Python libraries
-- Streamlit team for the amazing web app framework
 
 ## 📞 Contact
 
